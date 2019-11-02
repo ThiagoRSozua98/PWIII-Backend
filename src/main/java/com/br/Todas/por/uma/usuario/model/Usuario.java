@@ -13,7 +13,7 @@ import lombok.Setter;
 @Entity
 @Setter
 @Getter
-public class usuario {
+public class Usuario {
 	
 	@Column(name="rg",columnDefinition = "numeric")
 	@Id
